@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
         }
         if (mSelectedId == R.id.navigation_item_6) {
-            mDrawerLayout.closeDrawer(GravityCompat.START);
+            mDrawerLayout.closeDrawer(GravityCompat.END);
             intent = new Intent(this, SixthActivity.class);
             startActivity(intent);
         }
